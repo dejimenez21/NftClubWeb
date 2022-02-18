@@ -1,0 +1,48 @@
+
+.accordion {
+    font-family: 'Gochi Hand', cursive;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    position: relative;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.faq {
+    margin: 0;
+    font-size: 2.5rem;
+    transition: 0.4s;
+}
+
+.accordion-icon {
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+.active, .accordion:hover{
+    cursor: pointer;
+}
+
+.active, .accordion:hover .faq{
+    margin-left: 50px;
+}
+
+.panel {
+    padding: 0 18px;
+    color: #fff;
+    display: none;
+    overflow: hidden;
+}
+
+.invisible {
+    display: none;
+}

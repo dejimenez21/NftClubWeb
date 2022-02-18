@@ -1,8 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000000;
     margin: 0;
-    padding: 0 100px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 24px;
 }
 
 header {
@@ -11,6 +15,15 @@ header {
     display: flex;
     max-width: 1200px;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: green;
 }
 
 .bayc-icon {
@@ -25,9 +38,8 @@ nav {
 }
 
 nav > a {
-    text-decoration: none;
-    color: #FFF;
-    font-size: 8px;
+    
+    font-size: 12px;
     font-style: italic;
     font-weight: 500;
     letter-spacing: 1.2px;
