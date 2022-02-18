@@ -39,8 +39,9 @@
 .panel {
     padding: 0 18px;
     color: #fff;
-    display: none;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 0.4s ease-out;
 }
 
 .invisible {

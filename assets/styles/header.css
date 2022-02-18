@@ -11,10 +11,12 @@ body {
 
 header {
     margin: auto;
-    margin-top: 50px;
     display: flex;
     max-width: 1200px;
     width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+    position: relative;
 }
 
 a {
@@ -28,6 +30,9 @@ a:hover {
 
 .bayc-icon {
     width: 250px;
+    object-fit: fill;
+    position: absolute;
+    bottom: -58.33px;
 }
 
 nav {
