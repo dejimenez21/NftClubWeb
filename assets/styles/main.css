@@ -68,6 +68,10 @@ section > p {
     text-align: center;
 }
 
+.loading:hover {
+    color: #000; 
+}
+
 #roadmap > h1 {
     
     font-size: 5em;
