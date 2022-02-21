@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     height: 100px;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgb(20, 20, 20);
     color: #fff;
     cursor: pointer;
     padding: 18px;
@@ -46,4 +47,32 @@
 
 .invisible {
     display: none;
+}
+
+footer {
+    background-color: #000;
+}
+
+.footer-logo-container {
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.footer-logo {
+    width: 250px;
+    display: block;
+    margin: auto;
+    object-position: 50% -33.33px;
+}
+
+.footer-social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signature {
+    text-align: center;
 }

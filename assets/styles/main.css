@@ -5,18 +5,25 @@ main{
     color: #FFF;
 }
 
+.common-p {
+    text-align: justify;
+    font-size: 1em;
+}
+
 .brand-image-container{
-    width: 1100px;
+    max-width: 1200px;
     margin: auto;
-    object-fit: fill;
+    max-height: 900px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 100px;
 }
 
 .brand-image-container > img {
     width: 1200px;
     max-height:100%;
     height: auto;
-    object-fit: cover;
-    object-position: 100% 50%;
+    object-position: 50% -250px;
 }
 
 .img-fluid {
@@ -26,12 +33,13 @@ main{
 
 section {
     background-color: #000;
-    margin: 0;
+    margin: auto;
     padding: 50px 100px;
+    max-width: 1200px;
 }
 
 section > h1 {
-    font-size: 5em;
+    font-size: 4em;
     margin: 0;
     text-align: center;
 }
@@ -39,7 +47,6 @@ section > h1 {
 section > p {
     margin: 0;
     margin-top: 10px;
-    font-size: 2rem;
 }
 
 .open-sea {
@@ -156,7 +163,8 @@ section > p {
 }
 
 .roadmap-list {
-    font-size: 2rem;
+    font-size: 1em;
+    list-style-type: none;
 }
 
 .banana-icon {
