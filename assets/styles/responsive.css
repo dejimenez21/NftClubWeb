@@ -1,0 +1,43 @@
+/* Header */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .team-item > img {
+        width: 200px;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    nav {
+        justify-content: flex-start;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    .team-item > img {
+        width: 150px;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
