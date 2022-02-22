@@ -97,10 +97,6 @@ section > p {
     flex-direction: row;
 }
 
-.team-row {
-    justify-content: center;
-    display: flex;
-}
     
 .team-item {
     margin: 50px 10px;

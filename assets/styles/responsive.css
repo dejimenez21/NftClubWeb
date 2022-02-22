@@ -30,6 +30,16 @@
     }
 }
 
+@media (max-width: 840px) {
+    .team-container {
+        flex-wrap: wrap;
+    }
+
+    .team-item {
+        margin: 30px 50px;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
