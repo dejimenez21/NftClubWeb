@@ -13,17 +13,13 @@ main{
 .brand-image-container{
     max-width: 1200px;
     margin: auto;
-    max-height: 900px;
-    object-fit: cover;
-    overflow: hidden;
+    object-fit: contain;
     margin-bottom: 100px;
 }
 
 .brand-image-container > img {
-    width: 1200px;
-    max-height:100%;
+    max-width: 1200px;
     height: auto;
-    object-position: 50% -250px;
 }
 
 .img-fluid {
@@ -135,6 +131,8 @@ section > p {
 
 .join-discord {
     font-family: 'Melted Monster', sans-serif;
+    width: 400px;
+    margin: auto;
 }
 
 
@@ -149,7 +147,7 @@ section > p {
     color: #000;
     position: absolute;
     top: 270px;
-    left: 450px;
+    left: 110px;
     font-size: 35px;
     text-decoration: none;
 }
