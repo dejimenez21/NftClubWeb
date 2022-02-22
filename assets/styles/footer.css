@@ -19,7 +19,7 @@
 
 .faq {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     transition: 0.4s;
 }
 
@@ -63,7 +63,7 @@ footer {
     width: 250px;
     display: block;
     margin: auto;
-    object-position: 50% -33.33px;
+    /* object-position: 50% -33.33px; */
 }
 
 .footer-social-links {

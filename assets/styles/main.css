@@ -7,7 +7,7 @@ main{
 
 .common-p {
     text-align: justify;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .common-container {
@@ -90,11 +90,6 @@ section > p {
     text-align: center;
 }
 
-#roadmap > p {
-    margin: 0;
-    margin-top: 10px;
-    font-size: 2rem;
-}
 
 .team-container {
     justify-content: center;
@@ -171,7 +166,7 @@ section > p {
 }
 
 .roadmap-list {
-    font-size: 1em;
+    font-size: 2em;
     list-style-type: none;
 }
 
