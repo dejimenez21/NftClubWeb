@@ -45,9 +45,9 @@
         margin: 30px 50px;
     }
 
-    /* .team-item > img {
-        width: 250px;
-    } */
+    .team-item > img {
+        width: 220px;
+    }
 
     #team {
         padding: 2rem 2rem;
@@ -70,16 +70,8 @@
     }
 }
 
-@media (max-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-
-    .banana {
-        width: 100px;
-    }
-
-    nav {
-        display: none;
+@media (max-width: 703px) {
+    .team-item > img {
+        width: 200px;
     }
 }

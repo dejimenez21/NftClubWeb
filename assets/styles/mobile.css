@@ -73,3 +73,13 @@
         width: 300px;
     }
 }
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    nav {
+        display: none;
+    }
+}
