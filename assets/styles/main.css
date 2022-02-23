@@ -138,6 +138,8 @@ section > p {
 .team-item > img {
     width: 250px;
     border-radius: 50px;
+    display: block;
+    margin: auto;
 }
 
 .team-item > p {
@@ -146,7 +148,7 @@ section > p {
 
 .name {
     margin-bottom: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 

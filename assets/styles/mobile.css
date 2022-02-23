@@ -55,4 +55,14 @@
         font-size: 1.5rem;
     } */
 
+    .team-item > img {
+        width: 200px;
+    }
+
+}
+
+@media (max-width: 656px) {
+    .team-item > img {
+        width: 300px;
+    }
 }
