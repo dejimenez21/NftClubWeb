@@ -49,21 +49,23 @@
     display: none;
 }
 
+.faq-link {
+    color: yellow;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #000;
 }
 
 .footer-logo-container {
-    height: 200px;
-    object-fit: cover;
-    overflow: hidden;
+    object-fit: contain;
 }
 
 .footer-logo {
     width: 250px;
     display: block;
-    margin: auto;
-    /* object-position: 50% -33.33px; */
+    margin: 2rem auto;
 }
 
 .footer-social-links {
