@@ -1,9 +1,13 @@
 @media (max-width: 672px) {
 
-    header {
+    .header {
         padding: .5rem 1rem;
         min-height: 100px;
         justify-content: space-between;
+    }
+
+    .header > nav{
+        display: none;
     }
 
     .navbar-brand {
@@ -20,11 +24,26 @@
         width: 150px;
     }
 
-    .commond-container {
-        width: 100%;
+    #nav-toggle {
+        display: inline-block;
     }
 
-    .brand-image-container > img {
+    #nav-bar {
+        display: block;
+        transition: 0.4s;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .img-fluid {
+        display: none;
+    }
+
+    .mobile-brand-image {
+        display: block;
+    }
+
+    .commond-container {
         width: 100%;
     }
 

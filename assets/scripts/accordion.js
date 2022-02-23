@@ -1,4 +1,18 @@
 
+function displayNavigation() {
+  let btnNav = $("#nav-toggle")[0];
+
+  btnNav.addEventListener("click", function() {
+    let nav = $("#nav-bar")[0];
+    if (nav.style.maxHeight) {
+      nav.style.maxHeight = null;
+    } else {
+      nav.style.maxHeight = nav.scrollHeight + "px";;
+    }
+
+  });
+}
+
 $(document).ready(function() {
     var buttons = $(".accordion");
     
@@ -16,4 +30,7 @@ $(document).ready(function() {
             this.children[1].classList.toggle("invisible");
           });
     };
+
+    
+    displayNavigation();
 });

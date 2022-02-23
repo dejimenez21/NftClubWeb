@@ -36,6 +36,11 @@ main{
     height: auto;
 }
 
+.mobile-brand-image {
+    display: none;
+    width: 100%;
+}
+
 section {
     background-color: #000;
     margin: auto;
