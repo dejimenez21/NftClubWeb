@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/styles/main.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
     <link rel="stylesheet" href="assets/styles/responsive.css">
+    <link rel="stylesheet" href="assets/styles/mobile.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -24,7 +26,7 @@
 </head>
 <body>
     <header>
-        <a href="#"><img class="bayc-icon" src="assets/images/logo.PNG"></a> 
+        <a class="navbar-brand" href="#"><img class="cmc-icon" src="assets/images/logo.PNG"></a> 
 
         <nav>
             <a href="#history">HISTORY</a>
@@ -39,6 +41,10 @@
             <a href="https://discord.gg/HUp5jfGc"><i class="fa fa-discord-alt social-icon"></i></a>
             <a href="#"><i class="fa fa-twitter social-icon"></i></a>
         </div>
+
+        <button id="nav-toggle" class="navbar-brand" type="button">
+            <i class="fa fa-navicon toggler" aria-hidden="true"></i>
+        </button>
     </header>
     <main> 
         <div class="common-container">
@@ -60,7 +66,7 @@
                      styles. Everyday we would continue to upload more tokens. Prices would 
                      vary depending on the skollboy’s style.
                 </p>
-                <div class="open-sea">
+                <div class="open-sea common-btn">
                     <a class="loading">OpenSea Loading...</a>
                 </div>
             </section>
@@ -79,10 +85,9 @@
                     styles. Everyday we would continue to upload more tokens. Prices would 
                     vary depending on the skollboy’s style.
             </p>
-            <div class="join-discord relative">
-                <img class="banana" src="assets/images/banana.png" alt="">
-                <a class="join-discord-text" href="https://discord.gg/HUp5jfGc" target="_blank">Join Discord</a>
-            </div>       
+            <div class="common-btn" id="btn-discord">
+                <a class="loading">Join Discord</a>
+            </div>      
         </section>
 
         <div class="odd-section">

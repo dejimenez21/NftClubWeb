@@ -1,0 +1,39 @@
+@media (max-width: 672px) {
+
+    header {
+        padding: .5rem 1rem;
+        min-height: 100px;
+        justify-content: space-between;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .cmc-icon {
+        width: 150px;
+    }
+
+    .commond-container {
+        width: 100%;
+    }
+
+    .brand-image-container > img {
+        width: 100%;
+    }
+
+    section {
+        padding: 2rem 2rem;
+    }
+
+    /* li {
+        font-size: 1.5rem;
+    } */
+
+}

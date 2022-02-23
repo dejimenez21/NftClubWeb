@@ -50,4 +50,12 @@
     .container {
         max-width: 540px;
     }
+
+    .banana {
+        width: 100px;
+    }
+
+    nav {
+        display: none;
+    }
 }

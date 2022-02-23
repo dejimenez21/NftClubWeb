@@ -18,11 +18,10 @@ body {
 }
 
 header {
-    margin: auto;
     display: flex;
     max-width: 1200px;
     width: 100%;
-    min-height: 150px;
+    /* min-height: 150px; */
     max-height: 200px;
     position: relative;
     align-items: center;
@@ -37,7 +36,7 @@ a:hover {
     color: green;
 }
 
-.bayc-icon {
+.cmc-icon {
     width: 250px;
 }
 
@@ -77,4 +76,20 @@ nav > a:hover {
 
 .social-icon:hover {
     color: #BFC500;
+}
+
+#nav-toggle {
+    color: #FFF;
+    border-color: #000;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.toggler {
+    background-color: #000000;
+    color: #FFF;
 }
