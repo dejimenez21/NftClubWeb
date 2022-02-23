@@ -30,6 +30,12 @@
     }
 }
 
+@media (max-width: 900px) {
+    .team-item > img {
+        width: 180px;
+    }
+}
+
 @media (max-width: 840px) {
     .team-container {
         flex-wrap: wrap;
@@ -38,11 +44,29 @@
     .team-item {
         margin: 30px 50px;
     }
+
+    /* .team-item > img {
+        width: 250px;
+    } */
+
+    #team {
+        padding: 2rem 2rem;
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
+    }
+}
+
+@media (max-width: 759px) {
+    #roadmap {
+        padding-right: 3rem;
+    }
+
+    #faqs {
+        padding: 2rem 2rem;
     }
 }
 
