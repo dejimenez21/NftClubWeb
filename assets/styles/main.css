@@ -205,6 +205,10 @@ section > p {
     display: inline-flex
 }
 
-li {
+.roadmap-item {
     text-indent: -2em;
+}
+
+.ad {
+    color: yellow;
 }
