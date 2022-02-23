@@ -13,6 +13,15 @@ function displayNavigation() {
   });
 }
 
+function setJoinDiscord() {
+  $("#btn-discord")[0].addEventListener("click", function() {
+    window.open(
+      'https://discord.gg/R5RSxBfB',
+      '_blank'
+    )
+  })
+}
+
 $(document).ready(function() {
     var buttons = $(".accordion");
     
@@ -33,4 +42,5 @@ $(document).ready(function() {
 
     
     displayNavigation();
+    setJoinDiscord();
 });

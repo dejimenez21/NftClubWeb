@@ -87,19 +87,16 @@ section > p {
     color: #000;
 }
 
-.button :hover {
-    text-decoration: none;
-    color: #000;
-}
-
-.button:link{
-    color: #000;
+.discord {
+    font-size: 1.5rem;
 }
 
 #btn-discord:hover {
     background-color: green;
     cursor: pointer;
 }
+
+
 
 .open-sea:hover {
     background-color: rgb(216, 216, 125);
