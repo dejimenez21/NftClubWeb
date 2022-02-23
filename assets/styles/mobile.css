@@ -59,6 +59,9 @@
         width: 200px;
     }
 
+    .active, .accordion:hover .faq{
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 656px) {
