@@ -88,7 +88,7 @@ section > p {
 }
 
 .discord {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
 }
 
 #btn-discord:hover {
@@ -99,7 +99,7 @@ section > p {
 
 
 .open-sea:hover {
-    background-color: rgb(216, 216, 125);
+    background-color: green;
     cursor: pointer;
 }
 
@@ -107,6 +107,7 @@ section > p {
     text-decoration: none;
     color: #000;  
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .loading:hover {

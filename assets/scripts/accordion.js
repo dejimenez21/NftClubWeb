@@ -22,6 +22,15 @@ function setJoinDiscord() {
   })
 }
 
+function setOpensea() {
+  $("#btn-opensea")[0].addEventListener("click", function() {
+    window.open(
+      'https://opensea.io/Coolmonkeyclub',
+      '_blank'
+    )
+  })
+}
+
 $(document).ready(function() {
     var buttons = $(".accordion");
     
@@ -43,4 +52,5 @@ $(document).ready(function() {
     
     displayNavigation();
     setJoinDiscord();
+    setOpensea();
 });
